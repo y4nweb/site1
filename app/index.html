@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+    <div class="wrapper">
+    <header class="header">
+            <div class="header__inner">
+                <div class="header__logo"><img data="images/header-logo.png" width="40" height="40" alt="logo"></div>
+                <div class="header__burger">
+                    <span></span>
+                    <div class="header__burger-text"></div>
+                </div>
+                <div class="header__menu-close"></div>
+                <nav class="header__menu ">
+                    <ul class="header__menu-list">
+                        <li><a class="header__menu-link main-link">Главная</a></li>
+                        <li><a class="header__menu-link course-link">Курсы</a></li>
+                        <li><a class="header__menu-link schedule-link">Расписание</a></li>
+                        <li><a class="header__menu-link teachers-link">Преподаватели</a></li>
+                        <li><a class="header__menu-link footer-link">Рассылка</a></li>
+                        <li><a class="header__menu-link contact-link">Контакты</a></li>
+                        <li class="header__menu-btn"><a class="header__menu-link">Зайти в кабинет</a></li>
+                    </ul>
+                </nav>
+                <div class="header__account">
+                    <button class="header__account-btn btn">Зайти в кабинет</button>
+                </div>
+            </div>
+    </header>
+
+   
+
+    
+    <main class="content">
+        <section class="top-block">
+                <div class="top-block__bg"></div>
+                <div class="top-block__bg-down"></div>
+            <div class="container">
+                <div class="top-block__inner">
+                    <div class="top-block__title">
+                        <h1>Первый курс <span class="top-block__title-br">по компьютерной сборке</span></h1>
+                    </div>
+                    <div class="top-block__time countdown" id="countdown">
+                        <div class="top-block__time-left top-block__time-days">
+                            <span class="days"></span>
+                            <span class="top-block__time-text">Дней</span>
+                        </div>
+                        <div class="top-block__time-left top-block__time-hours">
+                            <span class="hours"></span>
+                            <span class="top-block__time-text">Часов</span>
+                        </div>
+                        <div class="top-block__time-left top-block__time-minutes">
+                            <span class="minutes"></span>
+                            <span class="top-block__time-text">Минут</span>
+                            
+                        </div>
+                        <div class="top-block__time-left top-block__time-seconds">
+                            <span class="seconds"></span>
+                            <span class="top-block__time-text">Секунд</span>
+                            
+                        </div>
+                    </div>
+                    <div class="top-block__statistics">
+                        <div class="top-block__course">
+                            <button class="top-block__course-btn btn">Заказать курс</button>
+                            <div class="top-block__course-students">
+                                <div class="top-block__course-students-inner">
+                                    <span class="top-block__course-text">Учеников всего:</span>
+                                    <span class="top-block__course-count">200</span>
+                                </div>
+                                <div class="top-block__course-students-inner">
+                                    <span class="top-block__course-text">Успешно закончили курс:</span>
+                                    <span class="top-block__course-count">190</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top-block__earny">
+                           <span class="top-block__earny-text"> Заработано учениками:</span>
+                            400 000 ₽
+                            <div class="top-block__earny-range">
+                                <div class="top-block__earny-range-bar">
+                                </div>  
+                                <span class="top-block__earny-count">0</span>  
+                                <span class="top-block__earny-count">1 000 000 ₽ </span>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="employment">
+            <div class="container">
+                <div class="employment__inner">
+                    <div class="employment__left">
+                        <img   width="446" height="446" alt="picture"
+                        data="images/about-pc.png">
+                    </div>
+                    <div class="employment__right">
+                        <div class="employment__right-title">
+                            <h2>Чем мы занимаемся?</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laudantium suscipit ipsam ex nihil distinctio voluptate excepturi magnam assumenda? In aliquam, molestias illum ratione doloremque error odit magni reprehenderit nostrum!
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus eos ipsam sed quia ducimus? Numquam quasi saepe aut earum tenetur hic libero. Eum quam fugit aliquam quis odit voluptate quos?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="start">
+            <div class="container">
+                <div class="start__inner">
+                    <div class="start__title">
+                        <div class="start__title-svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 100 100">
+                                <defs>
+                                  <linearGradient id="gradient" x1="100%" y1="50%" x2="0%" y2="100%">
+                                    <stop offset="20%" stop-color="#DF5950" />
+                                    <stop offset="100%" stop-color="#451046" />
+                                  </linearGradient>
+                                </defs>
+                                <circle cx="50" cy="45" r="35" stroke="url(#gradient)" stroke-width="14" fill="none" transform='rotate(240 50 50)'  stroke-dasharray="100 0 0 ">
+                                    <animate attributeName="stroke-dashoffset" dur="1s"  values="80;0" /> 
+                                </circle>               
+                              </svg>
+                        </div>
+                        <h2>Быстрый старт</h2>
+                        <p class="start__title-text">
+                            Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер
+                        </p>
+                    </div>
+                    <div class="start__scale">
+                        <div class="start__scale-block">
+                            <div id="" class="start__first"></div>
+                            <div class="start__second"></div>
+                            <div class="start__third"></div>
+                            <div class="start__forth"></div>
+                        </div>
+                       
+                        <div class="start__scale-first">
+                            <span class="start__scale-text">100%</span>
+                            <p class="start__scale-info">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. 
+                            </p>
+                        </div>
+                        <div class="start__scale-second">
+                            <span class="start__scale-text">75%</span>  
+                            <p class="start__scale-info">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. 
+                            </p>
+                        </div>
+                        <div class="start__scale-third">
+                            <span class="start__scale-text">50%</span>
+                            <p class="start__scale-info">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus.
+                            </p>
+                        </div>
+                        <div class="start__scale-forth">
+                            <span class="start__scale-text">Итог</span>
+                            
+                            <p class="start__scale-info">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="skills">
+            <div class="container">
+                <div class="skills__inner">
+                    <div class="skills__title">
+                        <h2>Получите профессию прямо сейчас</h2>
+                    </div>
+                    <div class="skills__types">
+                        <div class="skills__types-first">
+                            <img data="images/prof-ico.png" width="100" height="100" alt="logo">
+                            <h3 class="skills__types-title">Только практические навыки в работе</h3>
+                            <p class="skills__types-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque in, tempore beatae deserunt sapiente tempora et necessitatibus, nemo aut, id debitis saepe vero modi quam excepturi! Sunt, deleniti quasi. Laudantium. 
+                            </p>
+                        </div>
+                        <div class="skills__types-second">
+                            <img data="images/prof-ico2.png" width="100" height="100" alt="logo">
+                            <h3 class="skills__types-title">Работа на самом современном оборудовании</h3>
+                            <p class="skills__types-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque in, tempore beatae deserunt sapiente tempora et necessitatibus, nemo aut, id debitis saepe vero modi quam excepturi! Sunt, deleniti quasi. Laudantium. 
+                            </p>
+                        </div>
+                        <div class="skills__types-third">
+                            <img data="images/prof-ico3.png" width="100" height="100" alt="logo">
+                            <h3 class="skills__types-title">Сертификация<br> по окончании обучения</h3>
+                            <p class="skills__types-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque in, tempore beatae deserunt sapiente tempora et necessitatibus, nemo aut, id debitis saepe vero modi quam excepturi! Sunt, deleniti quasi. Laudantium. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+
+
+        <section class="partners">
+            <div class="container">
+                <div class="partners__inner">
+                    <div class="partners__title">
+                        <div class="partners__title-svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 100 100">
+                                <defs>
+                                  <linearGradient id="gradient" x1="100%" y1="50%" x2="0%" y2="100%">
+                                    <stop offset="20%" stop-color="#DF5950" />
+                                    <stop offset="100%" stop-color="#451046" />
+                                  </linearGradient>
+                                </defs>
+                                <circle cx="50" cy="45" r="35" stroke="url(#gradient)" stroke-width="14" fill="none" transform='rotate(70 50 50)'  stroke-dasharray="100 0 0 ">
+                                    <animate attributeName="stroke-dashoffset" dur="1s"  values="80;0" /> 
+                                </circle>               
+                              </svg>
+                        </div>
+                        <h2 class="partners__title-big">Партнеры - топовые бренды</h2>
+                        <h2 class="partners__title-small">Наши партнеры</h2>
+                    </div>
+                    <picture class="partners__brands">
+                        <img data="images/msi-logo.png" width="198" height="93" alt="logo">
+                        <img data="images/msi-logo.png" width="198" height="93" alt="logo">
+                        <img data="images/msi-logo.png" width="198" height="93" alt="logo">
+                        <img data="images/msi-logo.png" width="198" height="93" alt="logo">
+                        <img data="images/msi-logo.png" width="198" height="93" alt="logo">
+                        <img data="images/msi-logo.png" width="198" height="93" alt="logo">
+                        <img data="images/msi-logo.png" width="198" height="93" alt="logo">
+                        <img data="images/msi-logo.png" width="198" height="93" alt="logo">
+                        <div class="partners__brands-grid"></div>
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="teaching">
+            <div class="container">
+                <div class="teaching__inner">
+                    <div class="teaching__title">
+                        <div class="teaching__title-svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 100 100">
+                                <defs>
+                                  <linearGradient id="gradient" x1="100%" y1="50%" x2="0%" y2="100%">
+                                    <stop offset="20%" stop-color="#DF5950" />
+                                    <stop offset="100%" stop-color="#451046" />
+                                  </linearGradient>
+                                </defs>
+                                <circle cx="50" cy="45" r="35" stroke="url(#gradient)" stroke-width="14" fill="none" transform='rotate(0 50 50)'  stroke-dasharray="110 0 0 ">
+                                    <animate attributeName="stroke-dashoffset" dur="1s"  values="80;0" /> 
+                                </circle>               
+                              </svg>
+                        </div>
+                        <h2>Программа обучения</h2>
+                        <p class="teaching__title-text">
+                            Больше 90% учеников прошли полный курс и смогли
+                            собрать свой первый компьютер
+                        </p>
+                    </div>
+                    <ul class="teaching__list">
+                        <li><span class="teaching__list-text">Неделя №1</span>
+                        Красивая часть курса, которая помогает в успехе
+                        </li> 
+                        <li><span class="teaching__list-text">Неделя №2</span>
+                        Красивая часть курса, которая помогает в успехе
+                        </li> 
+                        <li><span class="teaching__list-text">Неделя №3</span>
+                        Красивая часть курса, которая помогает в успехе
+                        </li>
+                        <li><span class="teaching__list-text">Неделя №4</span>
+                        Красивая часть курса, которая помогает в успехе
+                        </li>
+                        <li><span class="teaching__list-text">Неделя №5</span>
+                        Красивая часть курса, которая помогает в успехе
+                        </li>
+                        <li><span class="teaching__list-text">Неделя №6</span>
+                        Красивая часть курса, которая помогает в успехе
+                        </li>
+                        <li><span class="teaching__list-text">Неделя №6</span>
+                            Красивая часть курса, которая помогает в успехе
+                        </li>
+                        <li><div class="teaching__list-line"></div></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="teachers">
+            <div class="container">
+                <div class="teachers__inner">
+                    <div class="teachers__title">
+                        <div class="teachers__title-svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 100 100">
+                                <defs>
+                                  <linearGradient id="gradient" x1="100%" y1="50%" x2="0%" y2="100%">
+                                    <stop offset="20%" stop-color="#DF5950" />
+                                    <stop offset="100%" stop-color="#451046" />
+                                  </linearGradient>
+                                </defs>
+                                <circle cx="50" cy="45" r="35" stroke="url(#gradient)" stroke-width="14" fill="none" transform='rotate(180 50 50)'  stroke-dasharray="110 0 0 ">
+                                    <animate attributeName="stroke-dashoffset" dur="1s"  values="80;0" /> 
+                                </circle>               
+                              </svg>
+                        </div>
+                        <h2>Ваши преподаватели</h2>
+                    </div>
+                    <div class="teachers__names">
+                        <div class="teachers__names-first">
+                            <img data="images/teacher1.png" alt="logo">
+                            <span class="teachers__names-text">Дмитрий Иванов</span>
+                            <span class="teachers__names-prof">Специалист по видеокартам</span>
+                            <a class="teachers__names-about">Биография</a>
+                        </div>
+                        <div class="teachers__names-second">
+                            <img data="images/teacher2.png" alt="logo">
+                            
+                            <span class="teachers__names-text">Дмитрий Иванов</span>
+                            <span class="teachers__names-prof">Специалист по видеокартам</span>
+                            <a class="teachers__names-about">Биография</a>
+                        </div>
+                        <div class="teachers__names-third">
+                            <img data="images/teacher3.png" alt="logo">
+                            
+                            <span class="teachers__names-text">Дмитрий Иванов</span>
+                            <span class="teachers__names-prof">Специалист по видеокартам</span>
+                            <a class="teachers__names-about">Биография</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__title">
+                        <h2>Статьи каждую неделю</h2>
+                        <p class="footer__title-text">
+                            Болле 90% учеников прошли полный курс и смогли собрать
+                            свой первый компьютер
+                        </p>
+                    </div>
+                    <div class="footer__contacts">
+                        <a class="footer__contacts-email">E-mail</a>
+                        <a class="footer__contacts-sub">Подписаться</a>
+                        <div class="footer__contacts-btn btn "></div>
+                    </div>
+                    <div class="footer__social">
+                        <img data="images/vk.png" width="24" height="24" alt="logo">
+                        <img data="images/youtube.png" width="24" height="24" alt="logo">
+                        <img data="images/facebook.png" width="24" height="24" alt="logo">
+                        <img data="images/instagram.png" width="24" height="24" alt="logo">
+                    </div>
+                    <span class="footer__text">Templates #18.More on Figma.info</span>
+                </div>
+            </div>
+        </footer>
+        </div>
+        
+        <script src="js/libs.min.js"></script>
+        <script src="js/script.js"></script>
+        
+</body>
+</html>
